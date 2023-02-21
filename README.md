@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next App Directory Template
+![use next](https://img.shields.io/badge/framework-next.js-yellow) ![use typescript](https://img.shields.io/badge/language-typescript-blue) ![use pnpm](https://img.shields.io/badge/package-pnpm-blue)
 
-## Getting Started
+## Use Libraries
+1. @dev.waca/modal
+   - React Modal Library [go to page](https://github.com/dev-waca/modal)
+2. @tanstack/react-query
+   - React Query Library [go to page](https://tanstack.com/query/latest)
+3. @tanstack/react-query-devtools
+    - React Query Devtools Library [go to page](https://tanstack.com/query/latest/docs/react/devtools)
+4. axios
+    - HTTP client Library [go to page](https://github.com/axios/axios)
+5. typescript-cookie
+    - Browser Cookie Library [go to page](https://github.com/carhartl/typescript-cookie/tree/latest#readme)
+6. zustand
+    - React State Management Library [go to page](https://github.com/pmndrs/zustand)
+7. date-fns
+    - Date Library [go to page](https://date-fns.org/)
+8. react-hook-form
+    - React Form Library [go to page](https://react-hook-form.com/)
+9. decimal.js
+    - Decimal Library [go to page](https://mikemcl.github.io/decimal.js/)
+10. next-seo
+    - SEO Library [go to page](https://github.com/garmeeh/next-seo)
+11. sass
+    - CSS Preprocessor Library [go to page](https://sass-lang.com/)
+12. clsx
+    - Classnames Library [go to page](https://www.npmjs.com/package/clsx)
+13. prettier
+    - Code Formatter Library [go to page](https://prettier.io/)
+14. @trivago/prettier-plugin-sort-imports
+    - Prettier Plugin [go to page](https://github.com/trivago/prettier-plugin-sort-imports)
+15. @next/bundle-analyzer
+    - Next Bundle Analyzer Library [go to page](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer) 
+16. @typescript-eslint/eslint-plugin, @typescript-eslint/parser
+    - ESLint Plugin [go to page](https://typescript-eslint.io/getting-started/)
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
