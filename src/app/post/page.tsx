@@ -1,3 +1,9 @@
+import { PostList } from '~/app/post/PostList';
+
 export default function PostPage() {
-  return <main></main>;
+  return (
+    <main>
+      <PostList />
+    </main>
+  );
 }
